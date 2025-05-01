@@ -5,7 +5,7 @@ export default function Home() {
   const router = useRouter();
   return (
     <div className="w-screen h-screen flex flex-col items-center justify-center space-y-10">
-      <h4 className="text-4xl font-bold">
+      <h4 className="w-full text-4xl font-bold text-center">
         Trying out components and animations
       </h4>
       <ul className="flex flex-col items-center justify-center space-y-4">
